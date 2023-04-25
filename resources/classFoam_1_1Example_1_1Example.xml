@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classFoam_1_1Example_1_1Example" kind="class" language="C++" prot="public">
+    <compoundname>Foam::Example::Example</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classFoam_1_1Example_1_1Example_1a5c06377a55386aa5e113ad81ea177710" prot="protected" static="no" mutable="no">
+        <type>std::unique_ptr&lt; Forward &gt;</type>
+        <definition>std::unique_ptr&lt;Forward&gt; Foam::Example::Example::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+<para>State. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/foam.H" line="38" column="19" bodyfile="src/foam.H" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="classFoam_1_1Example_1_1Example_1a6cb55548377aac62c629bc6f0dda1f62" prot="protected" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Foam::Example::Example::assertNoError</definition>
+        <argsstring>(int err, const char *msg)</argsstring>
+        <name>assertNoError</name>
+        <param>
+          <type>int</type>
+          <declname>err</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+<para>Die with msg if there is an error. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Return true if there is no error </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/foam.H" line="47" column="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classFoam_1_1Example_1_1Example_1a42df17a26891485b106c813d2e995c71" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Foam::Example::Example::Example</definition>
+        <argsstring>(const Example &amp;)=delete</argsstring>
+        <name>Example</name>
+        <param>
+          <type>const <ref refid="classFoam_1_1Example_1_1Example" kindref="compound">Example</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>No copy constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/foam.H" line="52" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classFoam_1_1Example_1_1Example_1a6f8ffc49db67e6ab8164e99286233878" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Foam::Example::Example::operator=</definition>
+        <argsstring>(const Example &amp;)=delete</argsstring>
+        <name>operator=</name>
+        <param>
+          <type>const <ref refid="classFoam_1_1Example_1_1Example" kindref="compound">Example</ref> &amp;</type>
+        </param>
+        <briefdescription>
+<para>No copy assignment. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/foam.H" line="57" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classFoam_1_1Example_1_1Example_1a80afefba7bf7e1c15be7501060ecdb57" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Foam::Example::Example::Example</definition>
+        <argsstring>()</argsstring>
+        <name>Example</name>
+        <briefdescription>
+<para>Default constructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/foam.H" line="65" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classFoam_1_1Example_1_1Example_1a651927ff2fad1db56fbfef97ee957e53" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Foam::Example::Example::~Example</definition>
+        <argsstring>()</argsstring>
+        <name>~Example</name>
+        <briefdescription>
+<para>Destructor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/foam.H" line="70" column="3"/>
+      </memberdef>
+      <memberdef kind="function" id="classFoam_1_1Example_1_1Example_1a508a60e23c7fe27489e71e838eb28289" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Foam::Example::Example::close</definition>
+        <argsstring>()</argsstring>
+        <name>close</name>
+        <briefdescription>
+<para>Explicitly close the file and terminate access. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>Return false if it was already closed. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/foam.H" line="79" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/foam.H" line="31" column="1" bodyfile="src/foam.H" bodystart="31" bodyend="80"/>
+    <listofallmembers>
+      <member refid="classFoam_1_1Example_1_1Example_1a6cb55548377aac62c629bc6f0dda1f62" prot="protected" virt="non-virtual"><scope>Foam::Example::Example</scope><name>assertNoError</name></member>
+      <member refid="classFoam_1_1Example_1_1Example_1a508a60e23c7fe27489e71e838eb28289" prot="public" virt="non-virtual"><scope>Foam::Example::Example</scope><name>close</name></member>
+      <member refid="classFoam_1_1Example_1_1Example_1a42df17a26891485b106c813d2e995c71" prot="protected" virt="non-virtual"><scope>Foam::Example::Example</scope><name>Example</name></member>
+      <member refid="classFoam_1_1Example_1_1Example_1a80afefba7bf7e1c15be7501060ecdb57" prot="public" virt="non-virtual"><scope>Foam::Example::Example</scope><name>Example</name></member>
+      <member refid="classFoam_1_1Example_1_1Example_1a6f8ffc49db67e6ab8164e99286233878" prot="protected" virt="non-virtual"><scope>Foam::Example::Example</scope><name>operator=</name></member>
+      <member refid="classFoam_1_1Example_1_1Example_1a5c06377a55386aa5e113ad81ea177710" prot="protected" virt="non-virtual"><scope>Foam::Example::Example</scope><name>state</name></member>
+      <member refid="classFoam_1_1Example_1_1Example_1a651927ff2fad1db56fbfef97ee957e53" prot="public" virt="non-virtual"><scope>Foam::Example::Example</scope><name>~Example</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

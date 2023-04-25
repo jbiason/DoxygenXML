@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="generator_8h" kind="file" language="C++">
+    <compoundname>generator.h</compoundname>
+    <includes local="no">string</includes>
+    <includedby refid="generator_8C" local="yes">src/generator.C</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>string</label>
+      </node>
+      <node id="1">
+        <label>src/generator.h</label>
+        <link refid="generator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classGenerator_1_1Car_1_1Maker" prot="public">Generator::Car::Maker</innerclass>
+    <innerclass refid="classGenerator_1_1Car_1_1Model" prot="public">Generator::Car::Model</innerclass>
+    <innernamespace refid="namespaceGenerator">Generator</innernamespace>
+    <innernamespace refid="namespaceGenerator_1_1Car">Generator::Car</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*---------------------------------------------------------------------------*\</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">|<sp/><sp/><sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">|<sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>|<sp/><sp/>HELYX<sp/>(R)<sp/>:<sp/>Open-source<sp/>CFD<sp/>for<sp/>Enterprise</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">|<sp/><sp/><sp/>o<sp/><sp/><sp/>O<sp/><sp/><sp/>o<sp/><sp/><sp/><sp/>|<sp/><sp/>Version<sp/>:<sp/>Dev</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">|<sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>|<sp/><sp/>ENGYS<sp/>Ltd.<sp/>&lt;http://engys.com/&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">|<sp/><sp/><sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">\*---------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>GENERATOR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>GENERATOR_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="namespaceGenerator" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceGenerator" kindref="compound">Generator</ref><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="namespaceGenerator_1_1Car" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Car<sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="classGenerator_1_1Car_1_1Maker" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classGenerator_1_1Car_1_1Maker" kindref="compound">Maker</ref><sp/>{</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="34" refid="classGenerator_1_1Car_1_1Maker_1a24d545390b5255319282db9aee7496fd" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classGenerator_1_1Car_1_1Maker_1a24d545390b5255319282db9aee7496fd" kindref="member">Maker</ref>(std::string<sp/>name)<sp/>:<sp/>name(name)<sp/>{}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="classGenerator_1_1Car_1_1Maker_1a6999108f30c77907e07979cc531f4872" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classGenerator_1_1Car_1_1Maker_1a6999108f30c77907e07979cc531f4872" kindref="member">dead</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/>~<ref refid="classGenerator_1_1Car_1_1Maker" kindref="compound">Maker</ref>();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/>std::string<sp/>name;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="classGenerator_1_1Car_1_1Model" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classGenerator_1_1Car_1_1Model" kindref="compound">Model</ref><sp/>{</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="61" refid="classGenerator_1_1Car_1_1Model_1ac99b7457b87948868084c0a3d5b088c1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classGenerator_1_1Car_1_1Model_1ac99b7457b87948868084c0a3d5b088c1" kindref="member">Model</ref>(<ref refid="classGenerator_1_1Car_1_1Maker" kindref="compound">Maker</ref><sp/>maker,<sp/>std::string<sp/>name)<sp/>:<sp/>maker(maker),<sp/>name(name)<sp/>{}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classGenerator_1_1Car_1_1Model_1a8cb46d6b751359d0fd26031f0dd4c623" kindref="member">vroom</ref>();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>extra_charges(</highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>price,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>percent);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>charges;</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><ref refid="classGenerator_1_1Car_1_1Maker" kindref="compound">Maker</ref><sp/>maker;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/>std::string<sp/>name;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal">};<sp/></highlight><highlight class="comment">//<sp/>class<sp/>Model</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>Car</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>Generator</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="src/generator.h"/>
+  </compounddef>
+</doxygen>

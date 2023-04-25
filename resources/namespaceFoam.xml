@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespaceFoam" kind="namespace" language="C++">
+    <compoundname>Foam</compoundname>
+    <innernamespace refid="namespaceFoam_1_1Example">Foam::Example</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/foam.H" line="20" column="1"/>
+  </compounddef>
+</doxygen>

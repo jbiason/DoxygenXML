@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classGenerator_1_1Car_1_1Model" kind="class" language="C++" prot="public">
+    <compoundname>Generator::Car::Model</compoundname>
+    <includes refid="generator_8h" local="no">generator.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classGenerator_1_1Car_1_1Model_1a9b4041d85087b2b1e10c7970b157315d" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Generator::Car::Model::charges</definition>
+        <argsstring></argsstring>
+        <name>charges</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The actual charges added. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/generator.h" line="79" column="9" bodyfile="src/generator.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGenerator_1_1Car_1_1Model_1a8d4644a7dccdcf3472d6402bec86d983" prot="private" static="no" mutable="no">
+        <type><ref refid="classGenerator_1_1Car_1_1Maker" kindref="compound">Maker</ref></type>
+        <definition>Maker Generator::Car::Model::maker</definition>
+        <argsstring></argsstring>
+        <name>maker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The name of the maker. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/generator.h" line="84" column="9" bodyfile="src/generator.h" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classGenerator_1_1Car_1_1Model_1aeb89e9dbab84e4f2f318338bf63e03c5" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Generator::Car::Model::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The brand name. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/generator.h" line="89" column="15" bodyfile="src/generator.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGenerator_1_1Car_1_1Model_1ac99b7457b87948868084c0a3d5b088c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Generator::Car::Model::Model</definition>
+        <argsstring>(Maker maker, std::string name)</argsstring>
+        <name>Model</name>
+        <param>
+          <type><ref refid="classGenerator_1_1Car_1_1Maker" kindref="compound">Maker</ref></type>
+          <declname>maker</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Define a car model.</para>
+<para>That&apos;s the thing you buy in the shop.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>maker</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Who makes this car? </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>What name we&apos;ll sell this?</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A brand spanking new model! </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/generator.h" line="61" column="3" bodyfile="src/generator.h" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="classGenerator_1_1Car_1_1Model_1a8cb46d6b751359d0fd26031f0dd4c623" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float Generator::Car::Model::vroom</definition>
+        <argsstring>()</argsstring>
+        <name>vroom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Make car go.</para>
+<para><simplesect kind="return"><para>Speed. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/generator.h" line="68" column="9" bodyfile="src/generator.C" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classGenerator_1_1Car_1_1Model_1aa6bdbf7a384cfb58bd538f550c9d18b4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generator::Car::Model::extra_charges</definition>
+        <argsstring>(float price, float percent)</argsstring>
+        <name>extra_charges</name>
+        <param>
+          <type>float</type>
+          <declname>price</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>percent</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Add extra charges when buying this model. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/generator.h" line="74" column="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A car model. </para>
+    </detaileddescription>
+    <location file="src/generator.h" line="49" column="1" bodyfile="src/generator.h" bodystart="49" bodyend="91"/>
+    <listofallmembers>
+      <member refid="classGenerator_1_1Car_1_1Model_1a9b4041d85087b2b1e10c7970b157315d" prot="private" virt="non-virtual"><scope>Generator::Car::Model</scope><name>charges</name></member>
+      <member refid="classGenerator_1_1Car_1_1Model_1aa6bdbf7a384cfb58bd538f550c9d18b4" prot="private" virt="non-virtual"><scope>Generator::Car::Model</scope><name>extra_charges</name></member>
+      <member refid="classGenerator_1_1Car_1_1Model_1a8d4644a7dccdcf3472d6402bec86d983" prot="private" virt="non-virtual"><scope>Generator::Car::Model</scope><name>maker</name></member>
+      <member refid="classGenerator_1_1Car_1_1Model_1ac99b7457b87948868084c0a3d5b088c1" prot="public" virt="non-virtual"><scope>Generator::Car::Model</scope><name>Model</name></member>
+      <member refid="classGenerator_1_1Car_1_1Model_1aeb89e9dbab84e4f2f318338bf63e03c5" prot="private" virt="non-virtual"><scope>Generator::Car::Model</scope><name>name</name></member>
+      <member refid="classGenerator_1_1Car_1_1Model_1a8cb46d6b751359d0fd26031f0dd4c623" prot="public" virt="non-virtual"><scope>Generator::Car::Model</scope><name>vroom</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespaceGenerator_1_1Car" kind="namespace" language="C++">
+    <compoundname>Generator::Car</compoundname>
+    <innerclass refid="classGenerator_1_1Car_1_1Maker" prot="public">Generator::Car::Maker</innerclass>
+    <innerclass refid="classGenerator_1_1Car_1_1Model" prot="public">Generator::Car::Model</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="namespaceGenerator_1_1Car" kindref="compound">Car</ref> generators </para>
+    </detaileddescription>
+    <location file="src/generator.h" line="22" column="1"/>
+  </compounddef>
+</doxygen>

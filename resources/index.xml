@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.1" xml:lang="en-US">
+  <compound refid="classFoam_1_1Example_1_1Example" kind="class"><name>Foam::Example::Example</name>
+    <member refid="classFoam_1_1Example_1_1Example_1a5c06377a55386aa5e113ad81ea177710" kind="variable"><name>state</name></member>
+    <member refid="classFoam_1_1Example_1_1Example_1a6cb55548377aac62c629bc6f0dda1f62" kind="function"><name>assertNoError</name></member>
+    <member refid="classFoam_1_1Example_1_1Example_1a42df17a26891485b106c813d2e995c71" kind="function"><name>Example</name></member>
+    <member refid="classFoam_1_1Example_1_1Example_1a6f8ffc49db67e6ab8164e99286233878" kind="function"><name>operator=</name></member>
+    <member refid="classFoam_1_1Example_1_1Example_1a80afefba7bf7e1c15be7501060ecdb57" kind="function"><name>Example</name></member>
+    <member refid="classFoam_1_1Example_1_1Example_1a651927ff2fad1db56fbfef97ee957e53" kind="function"><name>~Example</name></member>
+    <member refid="classFoam_1_1Example_1_1Example_1a508a60e23c7fe27489e71e838eb28289" kind="function"><name>close</name></member>
+  </compound>
+  <compound refid="classLog_1_1Logging" kind="class"><name>Log::Logging</name>
+    <member refid="classLog_1_1Logging_1ae086e701f83190828b4910e763627f12" kind="variable"><name>level</name></member>
+    <member refid="classLog_1_1Logging_1a4e414d403f8337c16a6cf80868c83794" kind="function"><name>Logging</name></member>
+  </compound>
+  <compound refid="classGenerator_1_1Car_1_1Maker" kind="class"><name>Generator::Car::Maker</name>
+    <member refid="classGenerator_1_1Car_1_1Maker_1a45298a14ff6025d9b34e7e2ee550170b" kind="variable"><name>name</name></member>
+    <member refid="classGenerator_1_1Car_1_1Maker_1a24d545390b5255319282db9aee7496fd" kind="function"><name>Maker</name></member>
+    <member refid="classGenerator_1_1Car_1_1Maker_1a6999108f30c77907e07979cc531f4872" kind="function"><name>dead</name></member>
+    <member refid="classGenerator_1_1Car_1_1Maker_1add487f863acda7174ae1c6deb6d4eab3" kind="function"><name>~Maker</name></member>
+  </compound>
+  <compound refid="classGenerator_1_1Car_1_1Model" kind="class"><name>Generator::Car::Model</name>
+    <member refid="classGenerator_1_1Car_1_1Model_1a9b4041d85087b2b1e10c7970b157315d" kind="variable"><name>charges</name></member>
+    <member refid="classGenerator_1_1Car_1_1Model_1a8d4644a7dccdcf3472d6402bec86d983" kind="variable"><name>maker</name></member>
+    <member refid="classGenerator_1_1Car_1_1Model_1aeb89e9dbab84e4f2f318338bf63e03c5" kind="variable"><name>name</name></member>
+    <member refid="classGenerator_1_1Car_1_1Model_1ac99b7457b87948868084c0a3d5b088c1" kind="function"><name>Model</name></member>
+    <member refid="classGenerator_1_1Car_1_1Model_1a8cb46d6b751359d0fd26031f0dd4c623" kind="function"><name>vroom</name></member>
+    <member refid="classGenerator_1_1Car_1_1Model_1aa6bdbf7a384cfb58bd538f550c9d18b4" kind="function"><name>extra_charges</name></member>
+  </compound>
+  <compound refid="namespaceFoam" kind="namespace"><name>Foam</name>
+  </compound>
+  <compound refid="namespaceFoam_1_1Example" kind="namespace"><name>Foam::Example</name>
+  </compound>
+  <compound refid="namespaceGenerator" kind="namespace"><name>Generator</name>
+  </compound>
+  <compound refid="namespaceGenerator_1_1Car" kind="namespace"><name>Generator::Car</name>
+  </compound>
+  <compound refid="namespaceLog" kind="namespace"><name>Log</name>
+    <member refid="namespaceLog_1afb5d4c945d835d194a295461d752531e" kind="enum"><name>Level</name></member>
+    <member refid="namespaceLog_1afb5d4c945d835d194a295461d752531eaec4d6b151ce2b9205065081b0218dc1f" kind="enumvalue"><name>Debug</name></member>
+    <member refid="namespaceLog_1afb5d4c945d835d194a295461d752531ea84d01ccd2314278ac9fffe87960b3e6f" kind="enumvalue"><name>Info</name></member>
+    <member refid="namespaceLog_1afb5d4c945d835d194a295461d752531eadde5984feecf55c501d01df7fd051cc1" kind="enumvalue"><name>Warning</name></member>
+    <member refid="namespaceLog_1afb5d4c945d835d194a295461d752531ea5c22955425541d3b890039a6a5ede82d" kind="enumvalue"><name>Error</name></member>
+  </compound>
+  <compound refid="foam_8H" kind="file"><name>foam.H</name>
+  </compound>
+  <compound refid="generator_8C" kind="file"><name>generator.C</name>
+  </compound>
+  <compound refid="generator_8h" kind="file"><name>generator.h</name>
+  </compound>
+  <compound refid="log_8h" kind="file"><name>log.h</name>
+  </compound>
+  <compound refid="main_8cpp" kind="file"><name>main.cpp</name>
+    <member refid="main_8cpp_1a0ddf1224851353fc92bfbff6f499fa97" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>

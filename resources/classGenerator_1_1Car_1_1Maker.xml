@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classGenerator_1_1Car_1_1Maker" kind="class" language="C++" prot="public">
+    <compoundname>Generator::Car::Maker</compoundname>
+    <includes refid="generator_8h" local="no">generator.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classGenerator_1_1Car_1_1Maker_1a45298a14ff6025d9b34e7e2ee550170b" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Generator::Car::Maker::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/generator.h" line="43" column="15" bodyfile="src/generator.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGenerator_1_1Car_1_1Maker_1a24d545390b5255319282db9aee7496fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Generator::Car::Maker::Maker</definition>
+        <argsstring>(std::string name)</argsstring>
+        <name>Maker</name>
+        <param>
+          <type>std::string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Creates a brand new maker.</para>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>name</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Brand used by this maker. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/generator.h" line="34" column="3" bodyfile="src/generator.h" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classGenerator_1_1Car_1_1Maker_1a6999108f30c77907e07979cc531f4872" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Generator::Car::Maker::dead</definition>
+        <argsstring>()</argsstring>
+        <name>dead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Declare bankrupcy. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/generator.h" line="39" column="8"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classGenerator_1_1Car_1_1Maker_1add487f863acda7174ae1c6deb6d4eab3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Generator::Car::Maker::~Maker</definition>
+        <argsstring>()</argsstring>
+        <name>~Maker</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/generator.h" line="42" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A car maker. </para>
+    </detaileddescription>
+    <location file="src/generator.h" line="27" column="1" bodyfile="src/generator.h" bodystart="27" bodyend="44"/>
+    <listofallmembers>
+      <member refid="classGenerator_1_1Car_1_1Maker_1a6999108f30c77907e07979cc531f4872" prot="public" virt="non-virtual"><scope>Generator::Car::Maker</scope><name>dead</name></member>
+      <member refid="classGenerator_1_1Car_1_1Maker_1a24d545390b5255319282db9aee7496fd" prot="public" virt="non-virtual"><scope>Generator::Car::Maker</scope><name>Maker</name></member>
+      <member refid="classGenerator_1_1Car_1_1Maker_1a45298a14ff6025d9b34e7e2ee550170b" prot="private" virt="non-virtual"><scope>Generator::Car::Maker</scope><name>name</name></member>
+      <member refid="classGenerator_1_1Car_1_1Maker_1add487f863acda7174ae1c6deb6d4eab3" prot="private" virt="non-virtual"><scope>Generator::Car::Maker</scope><name>~Maker</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="foam_8H" kind="file" language="C++">
+    <compoundname>foam.H</compoundname>
+    <includes local="no">memory</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>src/foam.H</label>
+        <link refid="foam_8H"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>memory</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classFoam_1_1Example_1_1Example" prot="public">Foam::Example::Example</innerclass>
+    <innernamespace refid="namespaceFoam">Foam</innernamespace>
+    <innernamespace refid="namespaceFoam_1_1Example">Foam::Example</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*---------------------------------------------------------------------------*\</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">|<sp/><sp/><sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">|<sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>|<sp/><sp/>HELYX<sp/>(R)<sp/>:<sp/>Open-source<sp/>CFD<sp/>for<sp/>Enterprise</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">|<sp/><sp/><sp/>o<sp/><sp/><sp/>O<sp/><sp/><sp/>o<sp/><sp/><sp/><sp/>|<sp/><sp/>Version<sp/>:<sp/>Dev</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">|<sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>|<sp/><sp/>ENGYS<sp/>Ltd.<sp/>&lt;http://engys.com/&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">|<sp/><sp/><sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">\*---------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"></highlight></codeline>
+<codeline lineno="9"><highlight class="comment">Description</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/><sp/><sp/>This<sp/>file<sp/>simulates<sp/>the<sp/>same<sp/>format<sp/>used<sp/>by<sp/>OpenFOAM,<sp/>just<sp/>to<sp/>make<sp/>sure<sp/>we</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/><sp/><sp/>are<sp/>compatible<sp/>with<sp/>that<sp/>too.</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"></highlight></codeline>
+<codeline lineno="13"><highlight class="comment">\*---------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;memory&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>FOAM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>FOAM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Foam<sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Example<sp/>{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Forward<sp/>Declaractions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal">Forward;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">//<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>*<sp/>//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------------------------------------------*\</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Class<sp/>Foam::Example::Example<sp/>Declaration</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">\*---------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31" refid="classFoam_1_1Example_1_1Example" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classFoam_1_1Example_1_1Example" kindref="compound">Example</ref><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keyword">protected</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Protected<sp/>Data</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//-<sp/>State</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/>std::unique_ptr&lt;Forward&gt;<sp/><ref refid="classFoam_1_1Example_1_1Example_1a5c06377a55386aa5e113ad81ea177710" kindref="member">state</ref>;</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38" refid="classFoam_1_1Example_1_1Example_1a5c06377a55386aa5e113ad81ea177710" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Protected<sp/>member<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//-<sp/>Die<sp/>with<sp/>msg<sp/>if<sp/>there<sp/>is<sp/>an<sp/>error</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Return<sp/>true<sp/>if<sp/>there<sp/>is<sp/>no<sp/>error</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classFoam_1_1Example_1_1Example_1a6cb55548377aac62c629bc6f0dda1f62" kindref="member">assertNoError</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>err,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*msg);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//-<sp/>No<sp/>copy<sp/>constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><ref refid="classFoam_1_1Example_1_1Example_1a80afefba7bf7e1c15be7501060ecdb57" kindref="member">Example</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classFoam_1_1Example_1_1Example" kindref="compound">Example</ref><sp/>&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="classFoam_1_1Example_1_1Example_1a6cb55548377aac62c629bc6f0dda1f62" refkind="member"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//-<sp/>No<sp/>copy<sp/>assignment</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="classFoam_1_1Example_1_1Example_1a6f8ffc49db67e6ab8164e99286233878" kindref="member">operator=</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classFoam_1_1Example_1_1Example" kindref="compound">Example</ref><sp/>&amp;)<sp/>=<sp/></highlight><highlight class="keyword">delete</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Constructors</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="classFoam_1_1Example_1_1Example_1a42df17a26891485b106c813d2e995c71" refkind="member"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//-<sp/>Default<sp/>constructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><ref refid="classFoam_1_1Example_1_1Example_1a80afefba7bf7e1c15be7501060ecdb57" kindref="member">Example</ref>();</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//-<sp/>Destructor</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="classFoam_1_1Example_1_1Example_1a6f8ffc49db67e6ab8164e99286233878" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="classFoam_1_1Example_1_1Example_1a651927ff2fad1db56fbfef97ee957e53" kindref="member">~Example</ref>();</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/>Member<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//-<sp/>Explicitly<sp/>close<sp/>the<sp/>file<sp/>and<sp/>terminate<sp/>access.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>Return<sp/>false<sp/>if<sp/>it<sp/>was<sp/>already<sp/>closed.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classFoam_1_1Example_1_1Example_1a508a60e23c7fe27489e71e838eb28289" kindref="member">close</ref>();</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="65" refid="classFoam_1_1Example_1_1Example_1a80afefba7bf7e1c15be7501060ecdb57" refkind="member"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>Example</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>Foam</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="src/foam.H"/>
+  </compounddef>
+</doxygen>

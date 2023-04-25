@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="generator_8C" kind="file" language="C++">
+    <compoundname>generator.C</compoundname>
+    <includes refid="generator_8h" local="yes">generator.h</includes>
+    <includes local="no">iostream</includes>
+    <incdepgraph>
+      <node id="3">
+        <label>string</label>
+      </node>
+      <node id="1">
+        <label>src/generator.C</label>
+        <link refid="generator_8C"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>iostream</label>
+      </node>
+      <node id="2">
+        <label>generator.h</label>
+        <link refid="generator_8h_source"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*---------------------------------------------------------------------------*\</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">|<sp/><sp/><sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">|<sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>|<sp/><sp/>HELYX<sp/>(R)<sp/>:<sp/>Open-source<sp/>CFD<sp/>for<sp/>Enterprise</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">|<sp/><sp/><sp/>o<sp/><sp/><sp/>O<sp/><sp/><sp/>o<sp/><sp/><sp/><sp/>|<sp/><sp/>Version<sp/>:<sp/>Dev</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">|<sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>|<sp/><sp/>ENGYS<sp/>Ltd.<sp/>&lt;http://engys.com/&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">|<sp/><sp/><sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">\*---------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;generator.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/><ref refid="classGenerator_1_1Car_1_1Model_1a8cb46d6b751359d0fd26031f0dd4c623" kindref="member">Generator::Car::Model::vroom</ref>()<sp/>{<sp/>std::cout<sp/>&lt;&lt;<sp/></highlight><highlight class="stringliteral">&quot;BRRRRR!!!&quot;</highlight><highlight class="normal"><sp/>&lt;&lt;<sp/>std::endl;<sp/>}</highlight></codeline>
+    </programlisting>
+    <location file="src/generator.C"/>
+  </compounddef>
+</doxygen>

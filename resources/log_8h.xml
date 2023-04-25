@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="log_8h" kind="file" language="C++">
+    <compoundname>log.h</compoundname>
+    <innerclass refid="classLog_1_1Logging" prot="public">Log::Logging</innerclass>
+    <innernamespace refid="namespaceLog">Log</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*---------------------------------------------------------------------------*\</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">|<sp/><sp/><sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">|<sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>|<sp/><sp/>HELYX<sp/>(R)<sp/>:<sp/>Open-source<sp/>CFD<sp/>for<sp/>Enterprise</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">|<sp/><sp/><sp/>o<sp/><sp/><sp/>O<sp/><sp/><sp/>o<sp/><sp/><sp/><sp/>|<sp/><sp/>Version<sp/>:<sp/>Dev</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">|<sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/>|<sp/><sp/>ENGYS<sp/>Ltd.<sp/>&lt;http://engys.com/&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">|<sp/><sp/><sp/><sp/><sp/><sp/><sp/>o<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>|</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">\*---------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>LOG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LOG_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="namespaceLog" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespaceLog" kindref="compound">Log</ref><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="namespaceLog_1afb5d4c945d835d194a295461d752531e" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespaceLog_1afb5d4c945d835d194a295461d752531e" kindref="member">Level</ref><sp/>{</highlight></codeline>
+<codeline lineno="20" refid="namespaceLog_1afb5d4c945d835d194a295461d752531eaec4d6b151ce2b9205065081b0218dc1f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespaceLog_1afb5d4c945d835d194a295461d752531eaec4d6b151ce2b9205065081b0218dc1f" kindref="member">Debug</ref><sp/>=<sp/>0<sp/>,</highlight></codeline>
+<codeline lineno="21" refid="namespaceLog_1afb5d4c945d835d194a295461d752531ea84d01ccd2314278ac9fffe87960b3e6f" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespaceLog_1afb5d4c945d835d194a295461d752531ea84d01ccd2314278ac9fffe87960b3e6f" kindref="member">Info</ref><sp/>=<sp/>1<sp/>,</highlight></codeline>
+<codeline lineno="22" refid="namespaceLog_1afb5d4c945d835d194a295461d752531eadde5984feecf55c501d01df7fd051cc1" refkind="member"><highlight class="normal"><sp/><sp/><ref refid="namespaceLog_1afb5d4c945d835d194a295461d752531eadde5984feecf55c501d01df7fd051cc1" kindref="member">Warning</ref><sp/>=<sp/>2<sp/>,</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><ref refid="namespaceLog_1afb5d4c945d835d194a295461d752531ea5c22955425541d3b890039a6a5ede82d" kindref="member">Error</ref><sp/>=<sp/>3<sp/></highlight></codeline>
+<codeline lineno="24" refid="namespaceLog_1afb5d4c945d835d194a295461d752531ea5c22955425541d3b890039a6a5ede82d" refkind="member"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="classLog_1_1Logging" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classLog_1_1Logging" kindref="compound">Logging</ref><sp/>{</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><ref refid="namespaceLog_1afb5d4c945d835d194a295461d752531e" kindref="member">Level</ref><sp/>level;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><ref refid="classLog_1_1Logging" kindref="compound">Logging</ref>(<ref refid="namespaceLog_1afb5d4c945d835d194a295461d752531e" kindref="member">Level</ref><sp/>level);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal">};<sp/></highlight><highlight class="comment">//<sp/>namespace<sp/>Log</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="src/log.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="classLog_1_1Logging" kind="class" language="C++" prot="public">
+    <compoundname>Log::Logging</compoundname>
+    <includes refid="log_8h" local="no">log.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classLog_1_1Logging_1ae086e701f83190828b4910e763627f12" prot="private" static="no" mutable="no">
+        <type><ref refid="namespaceLog_1afb5d4c945d835d194a295461d752531e" kindref="member">Level</ref></type>
+        <definition>Level Log::Logging::level</definition>
+        <argsstring></argsstring>
+        <name>level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/log.h" line="30" column="9" bodyfile="src/log.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classLog_1_1Logging_1a4e414d403f8337c16a6cf80868c83794" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Log::Logging::Logging</definition>
+        <argsstring>(Level level)</argsstring>
+        <name>Logging</name>
+        <param>
+          <type><ref refid="namespaceLog_1afb5d4c945d835d194a295461d752531e" kindref="member">Level</ref></type>
+          <declname>level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/log.h" line="32" column="3"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><ref refid="classLog_1_1Logging" kindref="compound">Logging</ref> facility. </para>
+    </detaileddescription>
+    <location file="src/log.h" line="29" column="1" bodyfile="src/log.h" bodystart="29" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classLog_1_1Logging_1ae086e701f83190828b4910e763627f12" prot="private" virt="non-virtual"><scope>Log::Logging</scope><name>level</name></member>
+      <member refid="classLog_1_1Logging_1a4e414d403f8337c16a6cf80868c83794" prot="private" virt="non-virtual"><scope>Log::Logging</scope><name>Logging</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

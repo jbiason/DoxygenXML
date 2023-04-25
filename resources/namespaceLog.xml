@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.1" xml:lang="en-US">
+  <compounddef id="namespaceLog" kind="namespace" language="C++">
+    <compoundname>Log</compoundname>
+    <innerclass refid="classLog_1_1Logging" prot="public">Log::Logging</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespaceLog_1afb5d4c945d835d194a295461d752531e" prot="public" static="no" strong="no">
+        <type></type>
+        <name>Level</name>
+        <enumvalue id="namespaceLog_1afb5d4c945d835d194a295461d752531eaec4d6b151ce2b9205065081b0218dc1f" prot="public">
+          <name>Debug</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Logs everything </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceLog_1afb5d4c945d835d194a295461d752531ea84d01ccd2314278ac9fffe87960b3e6f" prot="public">
+          <name>Info</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Informational log </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceLog_1afb5d4c945d835d194a295461d752531eadde5984feecf55c501d01df7fd051cc1" prot="public">
+          <name>Warning</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Warnings </para>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespaceLog_1afb5d4c945d835d194a295461d752531ea5c22955425541d3b890039a6a5ede82d" prot="public">
+          <name>Error</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+<para>Things are bad! </para>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Possible logging level </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/log.h" line="19" column="1" bodyfile="src/log.h" bodystart="19" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The logging module. </para>
+    </detaileddescription>
+    <location file="src/log.h" line="15" column="1"/>
+  </compounddef>
+</doxygen>
